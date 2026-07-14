@@ -90,3 +90,17 @@
 .project-links a:hover {
   border-color: var(--text);
 }
+@media (max-width: 768px) {
+  .projects {
+    padding: 60px 0;
+  }
+
+  .projects-container h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .project-card {
+    padding: 18px;
+  }
+}

@@ -105,3 +105,28 @@
   gap: 40px;
   flex-wrap: wrap;
 }
+/* Mobile */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text h2 {
+    font-size: 18px;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .profile-img {
+    margin: 20px auto 0;
+    width: 140px;
+    height: 140px;
+  }
+}

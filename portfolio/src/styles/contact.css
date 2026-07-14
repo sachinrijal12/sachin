@@ -45,3 +45,18 @@
   background-color: var(--card);
   border-color: var(--text);
 }
+@media (max-width: 768px) {
+  .contact {
+    padding: 60px 0;
+  }
+
+  .contact-text {
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
