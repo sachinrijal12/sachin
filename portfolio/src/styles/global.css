@@ -1,0 +1,99 @@
+:root {
+  --bg: #f4f1ec;
+  --card: #ffffff;
+  --text: #2e2e2e;
+  --subtext: #555;
+  --border: #ddd;
+  --accent: #f59e0b;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Inter, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Section spacing */
+section {
+  padding: 80px 0;
+  border-top: 1px solid var(--border);
+}
+/* Headings */
+h1, h2, h3 {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+main {
+  padding-top: 60px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 1.7;
+   color: var(--subtext);
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+  border-top: 1px solid var(--border);
+}

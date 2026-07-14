@@ -1,0 +1,47 @@
+.contact {
+  padding: 100px 0;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+/* Title */
+.contact-container h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  color: var(--text);
+}
+
+/* Text */
+.contact-text {
+  max-width: 460px;
+  margin: 0 auto 40px;
+  font-size: 13.5px;
+  color: var(--subtext);
+  line-height: 1.7;
+}
+
+/* Links container */
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.contact-links a {
+  font-size: 12.5px;
+  padding: 7px 14px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  text-decoration: none;
+  color: var(--text);
+  background-color: transparent;
+}
+
+/* Hover (very subtle, professional) */
+.contact-links a:hover {
+  background-color: var(--card);
+  border-color: var(--text);
+}

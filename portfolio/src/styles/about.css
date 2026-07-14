@@ -1,0 +1,25 @@
+.about {
+  padding: 100px 0;
+  border-top: 1px solid var(--border);
+}
+
+/* Title */
+.about-container h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: var(--text);
+}
+
+/* Content box */
+.about-content {
+  max-width: 720px;
+}
+
+/* Paragraphs */
+.about-content p {
+  margin-bottom: 20px;
+  color: var(--subtext);
+  line-height: 1.7;
+  font-size: 15px;
+}
