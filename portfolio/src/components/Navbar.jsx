@@ -4,11 +4,11 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="container navbar-container">
-        <div className="logo">
+        <a className="logo" href="#home" aria-label="Sachin Rijal home">
           Sachin Rijal
-        </div>
+        </a>
 
-        <nav className="nav-links">
+        <nav className="nav-links" aria-label="Primary">
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>

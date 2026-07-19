@@ -10,6 +10,11 @@
 .about-content {
   max-width: 46rem;
   margin: 0 auto;
+  padding: 1.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
 }
 
 .about-content p {
@@ -17,9 +22,17 @@
   font-size: 1rem;
 }
 
+.about-content p:last-child {
+  margin-bottom: 0;
+}
+
 @media (min-width: 48rem) {
   .about-container h2 {
     margin-bottom: 2rem;
+  }
+
+  .about-content {
+    padding: 1.5rem;
   }
 
   .about-content p {

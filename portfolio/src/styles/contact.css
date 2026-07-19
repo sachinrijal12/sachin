@@ -29,15 +29,22 @@
   padding: 0.5rem 0.95rem;
   font-size: 0.9rem;
   border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
+  border-radius: 999px;
   color: var(--text);
   background-color: var(--surface);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    border-color 180ms ease;
 }
 
 .contact-links a:hover,
 .contact-links a:focus-visible {
   background-color: var(--surface-alt);
   border-color: var(--accent);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
 }
 
 @media (min-width: 48rem) {

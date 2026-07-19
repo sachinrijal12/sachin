@@ -1,6 +1,8 @@
 .footer {
   border-top: 1px solid var(--border);
   padding: 1.25rem 0;
+  background: rgba(255, 255, 255, 0.32);
+  backdrop-filter: blur(10px);
 }
 
 .footer-container {
@@ -26,6 +28,7 @@
 .footer-links a {
   font-size: 0.9rem;
   color: var(--subtext);
+  transition: color 180ms ease;
 }
 
 .footer-links a:hover,

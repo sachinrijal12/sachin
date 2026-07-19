@@ -5,11 +5,15 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+
 function App() {
   return (
     <>
+      <a className="skip-link" href="#content">
+        Skip to content
+      </a>
       <Navbar />
-      <main>
+      <main id="content">
         <Hero />
         <About />
         <Skills />
