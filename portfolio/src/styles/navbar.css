@@ -3,50 +3,66 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: var(--card);
+  background-color: rgba(255, 255, 255, 0.96);
   border-bottom: 1px solid var(--border);
   z-index: 1000;
 }
 
 .navbar-container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 15px 20px;
-
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding: 0.9rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-/* Logo */
 .logo {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
   color: var(--text);
-  cursor: pointer;
+  white-space: nowrap;
 }
 
-/* Links container */
 .nav-links {
   display: flex;
-  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.1rem;
 }
 
-/* Links */
 .nav-links a {
-  text-decoration: none;
   color: var(--subtext);
-  font-size: 15px;
-  transition: all 0.3s ease;
+  font-size: 0.95rem;
+  line-height: 1;
 }
 
-/* Hover effect */
-.nav-links a:hover {
+.nav-links a:hover,
+.nav-links a:focus-visible {
   color: var(--text);
-  transform: translateY(-2px);
 }
-@media (max-width: 768px) {
+
+@media (min-width: 48rem) {
+  .navbar-container {
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 1.05rem;
+  }
+
   .nav-links {
-    display: none; /* or convert to hamburger later */
+    gap: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 47.98rem) {
+  .navbar-container {
+    padding: 0.85rem 0;
+  }
+
+  .nav-links {
+    gap: 0.6rem 0.9rem;
   }
 }

@@ -1,25 +1,28 @@
 .about {
-  padding: 100px 0;
-  border-top: 1px solid var(--border);
+  padding: 0;
 }
 
-/* Title */
 .about-container h2 {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 40px;
-  color: var(--text);
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 
-/* Content box */
 .about-content {
-  max-width: 720px;
+  max-width: 46rem;
+  margin: 0 auto;
 }
 
-/* Paragraphs */
 .about-content p {
-  margin-bottom: 20px;
-  color: var(--subtext);
-  line-height: 1.7;
-  font-size: 15px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 48rem) {
+  .about-container h2 {
+    margin-bottom: 2rem;
+  }
+
+  .about-content p {
+    font-size: 1.02rem;
+  }
 }
