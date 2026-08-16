@@ -1,0 +1,28 @@
+.footer {
+  padding: 1.5rem 0 2rem;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(31, 41, 55, 0.08);
+}
+
+.footer-text {
+  color: var(--subtext);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+
+.footer-links a {
+  color: var(--accent-strong);
+  font-weight: 600;
+}
